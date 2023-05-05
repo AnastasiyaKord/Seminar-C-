@@ -106,5 +106,11 @@
 // 782 -> 2
 // 918 -> 8
 
-int digit3 = 356 % 10;
-Console.WriteLine(digit3);
+// int digit3 = 456 % 10;
+// Console.WriteLine(digit3);
+
+int n = 5;
+for(int i= -n; i <= n; i++)
+{
+    Console.Write(i + " ");
+}
